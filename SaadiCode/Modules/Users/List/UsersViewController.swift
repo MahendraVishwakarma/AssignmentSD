@@ -16,6 +16,10 @@ class UsersViewController: BaseViewController {
         // Do any additional setup after loading the view.
         basicSetup()
     }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        userListTableView.reloadData()
+    }
     internal override func basicSetup() {
        
         viewModel = UserViewModel()
@@ -73,6 +77,11 @@ extension UsersViewController: UITableViewDataSource {
 //MARK:- TableView delegate methods
 extension UsersViewController:UITableViewDelegate{
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if let objectDetails = self.storyboard?.instantiateViewController(withIdentifier: "UserDetailsViewController") as? UserDetailsViewController {
+            let userInfo = self.viewModel?.userList?[indexPath.row]
+            objectDetails.userInfo = userInfo
+            self.navigationController?.pushViewController(objectDetails, animated: true)
+        }
         
     }
 }

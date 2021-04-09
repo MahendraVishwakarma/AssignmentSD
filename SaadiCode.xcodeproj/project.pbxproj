@@ -23,6 +23,7 @@
 		80270FE326209A3500A96298 /* UsersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80270FE126209A3500A96298 /* UsersCell.swift */; };
 		80270FE426209A3500A96298 /* UsersCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80270FE226209A3500A96298 /* UsersCell.xib */; };
 		80270FEA2620A69B00A96298 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80270FE92620A69B00A96298 /* Utils.swift */; };
+		80270FF52620CC9000A96298 /* UserDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80270FF42620CC9000A96298 /* UserDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		80270FE126209A3500A96298 /* UsersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersCell.swift; sourceTree = "<group>"; };
 		80270FE226209A3500A96298 /* UsersCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UsersCell.xib; sourceTree = "<group>"; };
 		80270FE92620A69B00A96298 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		80270FF42620CC9000A96298 /* UserDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +179,7 @@
 		80270FBA2620939B00A96298 /* Details */ = {
 			isa = PBXGroup;
 			children = (
+				80270FF42620CC9000A96298 /* UserDetailsViewController.swift */,
 			);
 			path = Details;
 			sourceTree = "<group>";
@@ -339,6 +342,7 @@
 				80270FC32620955900A96298 /* UsersViewController.swift in Sources */,
 				80270F7C26208CD000A96298 /* SceneDelegate.swift in Sources */,
 				80270FEA2620A69B00A96298 /* Utils.swift in Sources */,
+				80270FF52620CC9000A96298 /* UserDetailsViewController.swift in Sources */,
 				80270FD2262095DB00A96298 /* UsersModel.swift in Sources */,
 				80270FDC262097C800A96298 /* WebServices.swift in Sources */,
 			);

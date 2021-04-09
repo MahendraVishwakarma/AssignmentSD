@@ -14,7 +14,7 @@ class UserStructure: Codable {
     let address: Address?
     let phone, website: String?
     let company: Company?
-    var isMarkedFavourite:Bool? = nil
+    var isMarkedFavourite:Bool?
 
     init(id: Int?, name: String?, username: String?, email: String?, address: Address?, phone: String?, website: String?, company: Company?) {
         self.id = id
