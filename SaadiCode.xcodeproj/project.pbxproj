@@ -9,13 +9,21 @@
 /* Begin PBXBuildFile section */
 		80270F7A26208CD000A96298 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80270F7926208CD000A96298 /* AppDelegate.swift */; };
 		80270F7C26208CD000A96298 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80270F7B26208CD000A96298 /* SceneDelegate.swift */; };
-		80270F7E26208CD000A96298 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80270F7D26208CD000A96298 /* ViewController.swift */; };
 		80270F8126208CD000A96298 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80270F7F26208CD000A96298 /* Main.storyboard */; };
 		80270F8426208CD000A96298 /* SaadiCode.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 80270F8226208CD000A96298 /* SaadiCode.xcdatamodeld */; };
 		80270F8626208CD400A96298 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80270F8526208CD400A96298 /* Assets.xcassets */; };
 		80270F8926208CD400A96298 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80270F8726208CD400A96298 /* LaunchScreen.storyboard */; };
 		80270F9426208CD500A96298 /* SaadiCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80270F9326208CD500A96298 /* SaadiCodeTests.swift */; };
 		80270F9F26208CD500A96298 /* SaadiCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80270F9E26208CD500A96298 /* SaadiCodeUITests.swift */; };
+		80270FC32620955900A96298 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80270FC22620955900A96298 /* UsersViewController.swift */; };
+		80270FC82620959500A96298 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80270FC72620959500A96298 /* BaseViewController.swift */; };
+		80270FCD262095CA00A96298 /* UsersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80270FCC262095CA00A96298 /* UsersViewModel.swift */; };
+		80270FD2262095DB00A96298 /* UsersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80270FD1262095DB00A96298 /* UsersModel.swift */; };
+		80270FD72620968300A96298 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80270FD62620968300A96298 /* Common.swift */; };
+		80270FDC262097C800A96298 /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80270FDB262097C800A96298 /* WebServices.swift */; };
+		80270FE326209A3500A96298 /* UsersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80270FE126209A3500A96298 /* UsersCell.swift */; };
+		80270FE426209A3500A96298 /* UsersCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80270FE226209A3500A96298 /* UsersCell.xib */; };
+		80270FEA2620A69B00A96298 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80270FE92620A69B00A96298 /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +47,6 @@
 		80270F7626208CD000A96298 /* SaadiCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaadiCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80270F7926208CD000A96298 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80270F7B26208CD000A96298 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		80270F7D26208CD000A96298 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		80270F8026208CD000A96298 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80270F8326208CD000A96298 /* SaadiCode.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SaadiCode.xcdatamodel; sourceTree = "<group>"; };
 		80270F8526208CD400A96298 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +58,15 @@
 		80270F9A26208CD500A96298 /* SaadiCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaadiCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80270F9E26208CD500A96298 /* SaadiCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaadiCodeUITests.swift; sourceTree = "<group>"; };
 		80270FA026208CD500A96298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80270FC22620955900A96298 /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		80270FC72620959500A96298 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		80270FCC262095CA00A96298 /* UsersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewModel.swift; sourceTree = "<group>"; };
+		80270FD1262095DB00A96298 /* UsersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersModel.swift; sourceTree = "<group>"; };
+		80270FD62620968300A96298 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		80270FDB262097C800A96298 /* WebServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
+		80270FE126209A3500A96298 /* UsersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersCell.swift; sourceTree = "<group>"; };
+		80270FE226209A3500A96298 /* UsersCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UsersCell.xib; sourceTree = "<group>"; };
+		80270FE92620A69B00A96298 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +117,10 @@
 		80270F7826208CD000A96298 /* SaadiCode */ = {
 			isa = PBXGroup;
 			children = (
+				80270FB82620936500A96298 /* Utilities */,
+				80270FB72620935600A96298 /* Modules */,
 				80270F7926208CD000A96298 /* AppDelegate.swift */,
 				80270F7B26208CD000A96298 /* SceneDelegate.swift */,
-				80270F7D26208CD000A96298 /* ViewController.swift */,
 				80270F7F26208CD000A96298 /* Main.storyboard */,
 				80270F8526208CD400A96298 /* Assets.xcassets */,
 				80270F8726208CD400A96298 /* LaunchScreen.storyboard */,
@@ -129,6 +146,61 @@
 				80270FA026208CD500A96298 /* Info.plist */,
 			);
 			path = SaadiCodeUITests;
+			sourceTree = "<group>";
+		};
+		80270FB72620935600A96298 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				80270FB92620938900A96298 /* Users */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		80270FB82620936500A96298 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				80270FE026209A0700A96298 /* CommonsubViews */,
+				80270FC72620959500A96298 /* BaseViewController.swift */,
+				80270FD62620968300A96298 /* Common.swift */,
+				80270FE92620A69B00A96298 /* Utils.swift */,
+				80270FDB262097C800A96298 /* WebServices.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		80270FB92620938900A96298 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				80270FBB262093C600A96298 /* List */,
+				80270FBA2620939B00A96298 /* Details */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		80270FBA2620939B00A96298 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		80270FBB262093C600A96298 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				80270FC22620955900A96298 /* UsersViewController.swift */,
+				80270FCC262095CA00A96298 /* UsersViewModel.swift */,
+				80270FD1262095DB00A96298 /* UsersModel.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		80270FE026209A0700A96298 /* CommonsubViews */ = {
+			isa = PBXGroup;
+			children = (
+				80270FE126209A3500A96298 /* UsersCell.swift */,
+				80270FE226209A3500A96298 /* UsersCell.xib */,
+			);
+			path = CommonsubViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +306,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80270FE426209A3500A96298 /* UsersCell.xib in Resources */,
 				80270F8926208CD400A96298 /* LaunchScreen.storyboard in Resources */,
 				80270F8626208CD400A96298 /* Assets.xcassets in Resources */,
 				80270F8126208CD000A96298 /* Main.storyboard in Resources */,
@@ -261,10 +334,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80270F7E26208CD000A96298 /* ViewController.swift in Sources */,
+				80270FD72620968300A96298 /* Common.swift in Sources */,
+				80270FC82620959500A96298 /* BaseViewController.swift in Sources */,
+				80270FCD262095CA00A96298 /* UsersViewModel.swift in Sources */,
 				80270F7A26208CD000A96298 /* AppDelegate.swift in Sources */,
+				80270FE326209A3500A96298 /* UsersCell.swift in Sources */,
+				80270FC32620955900A96298 /* UsersViewController.swift in Sources */,
 				80270F7C26208CD000A96298 /* SceneDelegate.swift in Sources */,
+				80270FEA2620A69B00A96298 /* Utils.swift in Sources */,
 				80270F8426208CD000A96298 /* SaadiCode.xcdatamodeld in Sources */,
+				80270FD2262095DB00A96298 /* UsersModel.swift in Sources */,
+				80270FDC262097C800A96298 /* WebServices.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,7 +450,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -425,7 +505,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -442,6 +522,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SaadiCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,6 +541,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SaadiCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
