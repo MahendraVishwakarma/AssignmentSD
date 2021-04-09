@@ -10,7 +10,6 @@
 		80270F7A26208CD000A96298 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80270F7926208CD000A96298 /* AppDelegate.swift */; };
 		80270F7C26208CD000A96298 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80270F7B26208CD000A96298 /* SceneDelegate.swift */; };
 		80270F8126208CD000A96298 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80270F7F26208CD000A96298 /* Main.storyboard */; };
-		80270F8426208CD000A96298 /* SaadiCode.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 80270F8226208CD000A96298 /* SaadiCode.xcdatamodeld */; };
 		80270F8626208CD400A96298 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80270F8526208CD400A96298 /* Assets.xcassets */; };
 		80270F8926208CD400A96298 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80270F8726208CD400A96298 /* LaunchScreen.storyboard */; };
 		80270F9426208CD500A96298 /* SaadiCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80270F9326208CD500A96298 /* SaadiCodeTests.swift */; };
@@ -48,7 +47,6 @@
 		80270F7926208CD000A96298 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80270F7B26208CD000A96298 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		80270F8026208CD000A96298 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		80270F8326208CD000A96298 /* SaadiCode.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SaadiCode.xcdatamodel; sourceTree = "<group>"; };
 		80270F8526208CD400A96298 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80270F8826208CD400A96298 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80270F8A26208CD400A96298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -125,7 +123,6 @@
 				80270F8526208CD400A96298 /* Assets.xcassets */,
 				80270F8726208CD400A96298 /* LaunchScreen.storyboard */,
 				80270F8A26208CD400A96298 /* Info.plist */,
-				80270F8226208CD000A96298 /* SaadiCode.xcdatamodeld */,
 			);
 			path = SaadiCode;
 			sourceTree = "<group>";
@@ -342,7 +339,6 @@
 				80270FC32620955900A96298 /* UsersViewController.swift in Sources */,
 				80270F7C26208CD000A96298 /* SceneDelegate.swift in Sources */,
 				80270FEA2620A69B00A96298 /* Utils.swift in Sources */,
-				80270F8426208CD000A96298 /* SaadiCode.xcdatamodeld in Sources */,
 				80270FD2262095DB00A96298 /* UsersModel.swift in Sources */,
 				80270FDC262097C800A96298 /* WebServices.swift in Sources */,
 			);
@@ -673,19 +669,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		80270F8226208CD000A96298 /* SaadiCode.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				80270F8326208CD000A96298 /* SaadiCode.xcdatamodel */,
-			);
-			currentVersion = 80270F8326208CD000A96298 /* SaadiCode.xcdatamodel */;
-			path = SaadiCode.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 80270F6E26208CD000A96298 /* Project object */;
 }

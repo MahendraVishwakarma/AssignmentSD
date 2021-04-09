@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 class UserViewModel {
     //delegate to update fetched data from server to view
