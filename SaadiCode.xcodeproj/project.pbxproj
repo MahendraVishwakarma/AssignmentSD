@@ -12,7 +12,6 @@
 		80270F8126208CD000A96298 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80270F7F26208CD000A96298 /* Main.storyboard */; };
 		80270F8626208CD400A96298 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80270F8526208CD400A96298 /* Assets.xcassets */; };
 		80270F8926208CD400A96298 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80270F8726208CD400A96298 /* LaunchScreen.storyboard */; };
-		80270F9426208CD500A96298 /* SaadiCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80270F9326208CD500A96298 /* SaadiCodeTests.swift */; };
 		80270F9F26208CD500A96298 /* SaadiCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80270F9E26208CD500A96298 /* SaadiCodeUITests.swift */; };
 		80270FC32620955900A96298 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80270FC22620955900A96298 /* UsersViewController.swift */; };
 		80270FC82620959500A96298 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80270FC72620959500A96298 /* BaseViewController.swift */; };
@@ -54,7 +53,6 @@
 		80270F8826208CD400A96298 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80270F8A26208CD400A96298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80270F8F26208CD500A96298 /* SaadiCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaadiCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		80270F9326208CD500A96298 /* SaadiCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaadiCodeTests.swift; sourceTree = "<group>"; };
 		80270F9526208CD500A96298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80270F9A26208CD500A96298 /* SaadiCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaadiCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80270F9E26208CD500A96298 /* SaadiCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaadiCodeUITests.swift; sourceTree = "<group>"; };
@@ -136,7 +134,6 @@
 		80270F9226208CD500A96298 /* SaadiCodeTests */ = {
 			isa = PBXGroup;
 			children = (
-				80270F9326208CD500A96298 /* SaadiCodeTests.swift */,
 				80270F9526208CD500A96298 /* Info.plist */,
 				80270FFC262161C800A96298 /* UserViewModel.swift */,
 				802710012621723300A96298 /* UserDataModelTest.swift */,
@@ -358,7 +355,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80270F9426208CD500A96298 /* SaadiCodeTests.swift in Sources */,
 				802710022621723300A96298 /* UserDataModelTest.swift in Sources */,
 				80270FFD262161C800A96298 /* UserViewModel.swift in Sources */,
 			);
