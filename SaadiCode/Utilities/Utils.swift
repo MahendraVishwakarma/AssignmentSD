@@ -20,6 +20,7 @@ public enum Result<T, U> where U:Error {
 //MARK:- custom error types
 public enum APIError:Error {
      case failedRequest(String?)
+     case ObjectNil
 }
 
 //MARK:- HTTPS methods type

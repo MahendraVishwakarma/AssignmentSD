@@ -15,7 +15,10 @@ class UserViewModel {
     init() {
         
     }
-    public func fetchUsersData() {
+    public func fetchUsersData() throws  {
+        if self.delegate == nil {
+            throw APIError.ObjectNil
+        }
         
         let url = AppURLs.baseURL
         

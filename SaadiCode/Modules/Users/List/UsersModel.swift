@@ -16,7 +16,10 @@ class UserStructure: Codable {
     let company: Company?
     var isMarkedFavourite:Bool?
 
-    init(id: Int?, name: String?, username: String?, email: String?, address: Address?, phone: String?, website: String?, company: Company?) {
+    init(id: Int?, name: String?, username: String?, email: String?, address: Address?, phone: String?, website: String?, company: Company?) throws {
+        if id == nil || username == nil || (id ?? 0) > 0 {
+            throw APIError.ObjectNil
+        }
         self.id = id
         self.name = name
         self.username = username

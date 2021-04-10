@@ -25,7 +25,7 @@ class UserDetailsViewController: BaseViewController {
     weak var userInfo:UserStructure?
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         self.setupData()
         // Do any additional setup after loading the view.
     }
@@ -55,5 +55,9 @@ class UserDetailsViewController: BaseViewController {
         starButton.isSelected = (userInfo?.isMarkedFavourite ?? false)
         
     }
-
+    
+    // deinitialization the class
+    deinit {
+        print("UserDetailsViewController class deinit called")
+    }
 }

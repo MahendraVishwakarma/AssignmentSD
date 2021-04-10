@@ -8,7 +8,7 @@
 import UIKit
 
 class UsersViewController: BaseViewController {
-
+    
     var viewModel:UserViewModel?
     @IBOutlet weak var userListTableView: UITableView!
     override func viewDidLoad() {
@@ -21,13 +21,13 @@ class UsersViewController: BaseViewController {
         userListTableView.reloadData()
     }
     internal override func basicSetup() {
-       
+        
         viewModel = UserViewModel()
         //providing reference of this class to delegate object.
         viewModel?.delegate = self
         //calling method to fetch data
         self.activityLoader?.startAnimating()
-        viewModel?.fetchUsersData()
+        _ = try? viewModel?.fetchUsersData()
         
         //register cell to tableView
         userListTableView.register(UINib(nibName: String(describing: UsersCell.self), bundle: .main), forCellReuseIdentifier: UsersCell.identifier)
@@ -39,7 +39,7 @@ class UsersViewController: BaseViewController {
     deinit {
         //print('user class deinit called')
     }
-
+    
 }
 //MARK:- UserListUpdate protocol method's definition
 extension UsersViewController: UserListUpdate {
@@ -55,7 +55,7 @@ extension UsersViewController: UserListUpdate {
                 //show error alert
             }
         }
-       
+        
     }
 }
 //MARK:- TableView DataSource methods
